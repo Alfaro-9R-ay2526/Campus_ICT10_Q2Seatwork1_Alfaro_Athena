@@ -1,0 +1,52 @@
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SW1 Country nickname</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Country Nicknames</h1>
+        <p>Discover the nicknames of countries!</p>
+    </header>
+
+    <div class="container">
+        <h2>Choose a Country</h2>
+        <h3>Options:</h3>
+
+        <p>Philippines</p>
+        <p>Cambodia</p>
+        <p>Thailand</p>
+        <p>Singapore</p>
+        <p>Laos</p>
+        <p>Indonesia</p>
+        <p>Myanmar</p>
+        <p>Malaysia</p>
+
+        <label for="country">Enter a country:</label>
+        <input type="text" id="country">
+
+        <br><br>
+
+        <button py-click="show_name">Show Nickname</button>
+
+        <p id="result">Your result will appear here!</p>
+    </div>
+
+    <footer>
+        <p>Country Nicknames | Southeast Asia</p>
+    </footer>
+
+    <script type="py" src="./main.py"></script>
+
+</body>
+
+</html>
+```
